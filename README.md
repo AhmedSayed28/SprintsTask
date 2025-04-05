@@ -84,7 +84,7 @@ Auto_Task_Sprints/
 
 bash
 
-`git clone [your-repo-url] cd Auto_Task_Sprints mvn clean install`
+`git clone [ https://github.com/AhmedSayed28/SprintsTask.git  ] cd Auto_Task_Sprints mvn clean install`
 
 ### ▶️ 2. Run Tests
 
@@ -92,15 +92,11 @@ bash
 
 bash
 
-CopyEdit
-
 `mvn test`
 
 **Option 2: Run specific test group**
 
 bash
-
-CopyEdit
 
 `mvn test -Dgroups=smoke`
 
@@ -111,15 +107,12 @@ CopyEdit
 📊 Reporting
 ------------
 
-*   **TestNG Reports:** `target/surefire-reports/`
+*   **Basic TestNG Reports (As Asked)
     
 *   **Screenshots (on failure):** `target/screenshots/`
     
 *   **Custom Logs:** via `TestNGListener`
     
-
-> 💡 _Optional: Integrate Allure Reports for beautiful dashboards_
-
 * * *
 
 🧠 Best Practices Followed
@@ -133,34 +126,10 @@ CopyEdit
     
 *   ✔ Auto-Retry for flaky tests (if configured)
     
-*   ✔ Parallel Execution via `testng.xml`
-    
-
-* * *
-
-📈 Future Improvements
-----------------------
-
-*   🔄 Add API Testing (RestAssured)
-    
-*   📊 Integrate Allure Reporting
-    
-*   🐳 Docker support for cross-browser testing
-    
-*   🔔 Add Slack/Teams notification integration
-    
-
-* * *
-
-📜 License
-----------
-
-This framework is for **Sprint Company internal use only**.
 
 * * *
 
 💬 Need Help?
 -------------
 
-**Contact:** [Your Email]  
-**Last Updated:** [Date]
+**Contact:** qa.ahmedsayed@gmail.com or 01115081316 
